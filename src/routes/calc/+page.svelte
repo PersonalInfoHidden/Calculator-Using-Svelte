@@ -49,7 +49,7 @@
 			{#if calc.expandedOut}
 				<h3>{calc.expandedOut}</h3>
 			{/if}
-			<h2>{calc.simpleOut}</h2>
+			<h2>{calc.simpleOut === '69' ? '🤭' : calc.simpleOut}</h2>
 		</div>
 		<div class="inputs">
 			{#each inputs as column}
